@@ -1,0 +1,34 @@
+{
+  "name": "@solaris/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/solaris.umd.js",
+  "module": "dist/solaris.es.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/solaris.es.js",
+      "require": "./dist/solaris.umd.js"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.1.0",
+    "sass": "^1.69.4",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
